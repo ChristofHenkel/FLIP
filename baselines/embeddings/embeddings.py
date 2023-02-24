@@ -23,7 +23,8 @@ from train_all import split_dict
 esm_dict = {
     'esm1v': 'esm1v_t33_650M_UR90S_1', # use first of 5 models 
     'esm1b': 'esm1b_t33_650M_UR50S',
-    'esm_rand': '/../../random_init_esm.pt' # need to randomly initailize an ESM model and save it 
+    'esm_rand': '/../../random_init_esm.pt', # need to randomly initailize an ESM model and save it 
+    'esm2_t33_650M_UR50D':'esm2_t33_650M_UR50D'
 }
 
 def create_parser():
