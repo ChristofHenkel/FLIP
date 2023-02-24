@@ -1,0 +1,1 @@
+wget -r -nH --cut-dirs=2 -P data/ --no-parent --reject="index.html*" http://data.bioembeddings.com/public/FLIP/ 
