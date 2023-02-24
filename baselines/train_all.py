@@ -13,10 +13,7 @@ from csv import writer
 
 sys.path.append(BASELINE_DIR)
 
-from utils import *
-from evals import *
-from models import * 
-from train import * 
+
 
 import argparse 
 
@@ -37,6 +34,11 @@ split_dict = {
     'gb1_4': 'sampled',
     'gb1_5': 'low_vs_high'
 }
+
+from utils import *
+from evals import *
+from models import * 
+from train import * 
 
 def create_parser():
     parser = argparse.ArgumentParser(description="train esm")
